@@ -88,10 +88,19 @@ for(let i = 1; i <= linhas; i++){
 
 //EXERCÍCIO 05
 let qtd = Number(prompt("Digite a quantidade de termos: "));
+let termo = 1;
+let soma = 0;
+let sequencia = "";
 for(let i = 1; i <= qtd; i++){
-    let soma = "";
-    for(j = 1; j <= i; j++){
-        soma += "";
+    soma = soma + termo;
+    termo = termo * 10 + 1;
+    
+if(i === qtd){
+    sequencia = sequencia + termo;
+    } else {
+    sequencia = sequencia + termo + " + ";
     }
-    console.log(soma);
 }
+
+console.log(sequencia);
+console.log("A soma é: ", soma);
