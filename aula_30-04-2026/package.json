@@ -1,0 +1,12 @@
+{
+  "name": "aula_30-04-2026",
+  "version": "1.0.0",
+  "description": "primeiro projeto utilizado em node.js",
+  "license": "ISC",
+  "author": "Hugo",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
